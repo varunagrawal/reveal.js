@@ -1,0 +1,89 @@
+/* 
+	Georgia Tech Theme for revealjs 
+
+	Theme for presentations delivered by GT personnel using revealjs at various venues
+
+	Author: Varun Agrawal
+	Email: varunagrawal@gatech.edu
+*/
+
+// Default mixins and settings -----------------
+@import "../template/mixins";
+@import "../template/settings";
+// ---------------------------------------------
+
+// Georgia Tech fonts
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i,700,700i);
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab);
+
+// Background of the presentation
+$backgroundColor: #ffffff;
+
+// Primary/body text
+$mainFont: 'Roboto', sans-serif;
+$mainFontSize: 25px;
+$mainColor: #00254c;
+
+$codeFont: 'Roboto Slab', serif;
+
+// Vertical spacing between blocks of text
+$blockMargin: 20px;
+
+// Headings
+$headingMargin: 0 0 $blockMargin 0;
+$headingFont: 'Helvetica Neue', Arial, sans-serif;
+$headingColor: #eeb211;
+$headingLineHeight: 1.0;
+$headingLetterSpacing: normal;
+$headingTextTransform: uppercase;
+$headingTextShadow: none;
+$headingFontWeight: normal;
+$heading1TextShadow: $headingTextShadow;
+
+$heading1Size: 3.5em;
+$heading2Size: 2.01em;
+$heading3Size: 1.55em;
+$heading4Size: 1.00em;
+
+// Links and actions
+$linkColor: #004f9f;
+$linkColorHover: #1879db;
+
+// Text selection
+$selectionBackgroundColor: #545454;
+$selectionColor: #fff;
+
+// Various background colors
+$blockquoteBackground: #f5d376;
+$codeBackground: #e5e5e5; 
+
+// Generates the presentation background, can be overridden
+// to return a background image or gradient
+@mixin bodyBackground() {
+		background: $backgroundColor;
+}
+
+// Theme template ------------------------------
+@import "../template/theme";
+// ---------------------------------------------
+
+/*********************************************
+ * OTHER
+ *********************************************/
+
+.reveal blockquote {
+	display: block;
+	position: relative;
+	width: 70%;
+	margin: $blockMargin auto;
+	padding: 5px;
+
+	font-style: italic;
+	background: $blockquoteBackground;
+	box-shadow: 0px 0px 2px rgba(0,0,0,0.2);
+}
+
+.reveal p code {
+	font-family: $codeFont;
+	background-color: $codeBackground;
+}
