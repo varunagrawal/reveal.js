@@ -16,7 +16,7 @@ A presentation made completely in reveal. Focus on content rather than pizazz.
 - Brand font
 - Links & Images!!
 
-[GT Github](https://github.gatech.edu)
+[Github Repo](https://github.com/varunagrawal/reveal.js)
 
 ---
 
