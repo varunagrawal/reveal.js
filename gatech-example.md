@@ -66,3 +66,9 @@ You can't see these notes haha.
 ## Overview Mode
 
 Press `ESC` to see the deck overview. No need to clumsily escape into Powerpoint anymore.
+
+---
+
+## Conclusion
+
+Hope you liked this!
