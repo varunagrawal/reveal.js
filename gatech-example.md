@@ -28,7 +28,17 @@ We are from the `College of Computing` at Georgia Tech.
 
 ---
 
-## Code/Equation Snippets
+## Fancy Equations and Latex
+
+\\[ f(x) \geq f(x_0) + f'(x_0)(x-x_0) \\]
+
+$$ E = mc^2 $$
+
+$$ \theta = e^{i\Pi} = -1 $$
+
+---
+
+## Code Snippets
 
 We can add small snippets for equations or code.
 
